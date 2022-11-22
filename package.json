@@ -1,0 +1,29 @@
+{
+  "name": "learn-js",
+  "version": "1.0.0",
+  "description": "js examples for fast learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneelia/learn-js.git"
+  },
+  "author": "MariaShalaginova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aneelia/learn-js/issues"
+  },
+  "homepage": "https://github.com/aneelia/learn-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "cypress": "^11.1.0"
+  }
+}
